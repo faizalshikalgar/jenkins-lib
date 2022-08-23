@@ -2,6 +2,7 @@
 
 package com.example
 
+//calling each function seperatly
 
 class Docker implements Serializable {
 
@@ -20,7 +21,7 @@ class Docker implements Serializable {
         script.sh "echo $script.PASS | docker login -u $script.USER --password-stdin"
         }
     }
-    def dockerLogin(String imageName) {
+    def dockerPush(String imageName) {
         script.sh "docker push ${imageName}"
     }
 }
