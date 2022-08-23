@@ -1,7 +1,5 @@
 #!/usr/bin/env groovy
 
-//checkout
-
 package com.example
 
 
