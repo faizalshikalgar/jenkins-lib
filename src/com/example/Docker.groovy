@@ -1,7 +1,5 @@
 #!/usr/bin/env groovy
 
-//docker plus
-
 package com.example
 
 
